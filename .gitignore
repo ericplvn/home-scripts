@@ -1,11 +1,14 @@
 *~
 *.swp
 .ICEauthority
+.Private
 .Xauthority
 .acme-ffcert.log
 .acme/
+.apport-ignore.xml
 .bash_history
 .bash_logout
+.bashrc.old
 .bashrc_local
 .bashrc_ubuntu
 .bogofilter/
@@ -14,6 +17,7 @@
 .config/
 .connections-agent.log
 .emacs.d/
+.ecryptfs
 .gnome/
 .gnupg/
 .k5login
@@ -25,10 +29,14 @@
 .purple/
 .python_history
 .remmina/
+.ssh/id_rsa
+.ssh/id_rsa.pub
 .ssh/known_hosts
 .sudo_as_admin_successful
 .to_backup
 .viminfo
+.vnc
+.wget-hsts
 .xsession-errors
 .xsession-errors.old
 Desktop/
@@ -42,5 +50,6 @@ brazil-pkg-cache/
 dev_home
 ericplvn_old/
 examples.desktop
+lfs/
 windows-home
 ws
