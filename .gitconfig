@@ -1,7 +1,16 @@
-# This is Git's per-user configuration file.
 [user]
-# Please adapt and uncomment the following lines:
-	name = ericplvn
 	email = ericplvn@amazon.com
+	name = Eric Levine
+[color]
+	ui = auto
 [core]
-	editor = "emacs -nw"
+	pager = less -FMRiX
+	excludesfile = ~/.git-ignore
+	editor = emacs -nw
+[push]
+	default = simple
+[alias]
+	dag = log --graph --format='format:%C(yellow)%h%C(reset) %C(blue)\"%an\" <%ae>%C(reset) %C(magenta)%ar%C(reset)%C(auto)%d%C(reset)%n%s' --date-order
+[amazon]
+	append-cr-url = false
+	pull-request-by-default = true
