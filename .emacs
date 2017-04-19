@@ -24,6 +24,7 @@
 (defun track-mouse (e))
 
 (setq mouse-wheel-follow-mouse 't)
+(setq scroll-step 1)
 
 (defvar alternating-scroll-down-next t)
 (defvar alternating-scroll-up-next t)
@@ -32,14 +33,14 @@
   (interactive "@")
     (when alternating-scroll-down-next
 ;      (run-hook-with-args 'window-scroll-functions )
-      (scroll-down-line))
+      (scroll-down-line 10))
     (setq alternating-scroll-down-next (not alternating-scroll-down-next)))
 
 (defun alternating-scroll-up-line ()
   (interactive "@")
     (when alternating-scroll-up-next
 ;      (run-hook-with-args 'window-scroll-functions)
-      (scroll-up-line))
+      (scroll-up-line 10))
     (setq alternating-scroll-up-next (not alternating-scroll-up-next)))
 
 (global-set-key (kbd "<mouse-4>") 'alternating-scroll-down-line)
