@@ -6,6 +6,7 @@
 .acme-ffcert.log
 .acme/
 .apport-ignore.xml
+.arduino15/
 .aws
 .bash_history
 .bash_logout
@@ -33,6 +34,8 @@
 .gtk-bookmarks
 .history
 .icons/
+.java
+.jssc
 .k5login
 .kshrc
 .lesshst
@@ -59,6 +62,7 @@
 .ssh/known_hosts
 .subversion/
 .sudo_as_admin_successful
+.teensy
 .themes/
 .thumbnails/
 .to_backup
@@ -73,6 +77,7 @@
 .xsession-errors.old
 .zcompdump
 .zshrc
+Arduino/
 Desktop/
 Documents/
 Downloads/
@@ -91,6 +96,7 @@ examples.desktop
 folders.txt
 local/
 lfs/
+teensy/
 tmux-*
 windows-home
 ws

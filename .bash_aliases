@@ -9,3 +9,8 @@ alias dfh='df -h'
 
 alias ssx='ssh -X'
 alias emnw='emacs -nw'
+
+# ls aliases
+alias ll='ls -alhF'
+alias la='ls -A'
+alias l='ls -CF'
