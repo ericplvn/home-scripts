@@ -14,3 +14,6 @@ alias emnw='emacs -nw'
 alias ll='ls -alhF'
 alias la='ls -A'
 alias l='ls -CF'
+
+# Shorten pwd home to ampersand
+alias amp='cd ${PWD/"local/home"/home}'
