@@ -63,6 +63,7 @@
 ;; Web-Mode
 (require 'web-mode)
 (add-to-list 'auto-mode-alist '("\\.html\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.kxac\\'" . javascript-mode))
 (setq web-mode-engines-alist
       '(("django"    . "\\.html\\'"))
 )
