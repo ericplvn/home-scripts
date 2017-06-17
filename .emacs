@@ -52,6 +52,7 @@
 
 ;; --
 ;; Packages
+;; use M-x list-packages to install packages
 ;; --
 (add-to-list 'package-archives
              '("melpa" . "https://melpa.org/packages/"))
