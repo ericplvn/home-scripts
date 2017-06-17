@@ -19,6 +19,7 @@
 .config/
 .connections-agent.log
 .dbus
+.dmrc
 .emacs.d/
 .ecryptfs
 .envimprovement
@@ -54,6 +55,7 @@
 .python_history
 .qt/
 .remmina/
+.rnd
 .ssh/agent.out*
 .ssh/authorized_keys*
 .ssh/config
@@ -66,6 +68,7 @@
 .themes/
 .thumbnails/
 .to_backup
+.vboxclient*
 .viminfo
 .vimrc
 .vnc
@@ -80,6 +83,7 @@
 Arduino/
 Desktop/
 Documents/
+Documents
 Downloads/
 DXADevCodeDeploy/
 Pictures/
