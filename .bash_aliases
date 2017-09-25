@@ -17,3 +17,6 @@ alias l='ls -CF'
 
 # Shorten pwd home to ampersand
 alias amp='cd ${PWD/"local/home"/home}'
+
+# Grep in code
+alias grepc='grep -Inr'
