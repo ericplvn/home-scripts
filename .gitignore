@@ -5,6 +5,7 @@
 .Xauthority
 .acme-ffcert.log
 .acme/
+.anyconnect
 .apport-ignore.xml
 .arduino15/
 .aws
@@ -15,6 +16,7 @@
 .bashrc_ubuntu
 .bogofilter/
 .cache/
+.cisco/
 .compiz/
 .config/
 .connections-agent.log
@@ -52,6 +54,7 @@
 .pulse-cookie
 .pulse/
 .purple/
+.PyCharmCE2017.2/
 .python_history
 .qt/
 .remmina/
@@ -73,6 +76,7 @@
 .vimrc
 .vnc
 .wget-hsts
+.xbindkeys*
 .xorgxrdp.12.log
 .xorgxrdp.14.log
 .xrdp-errors

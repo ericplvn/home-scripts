@@ -132,6 +132,12 @@ if [[ `uname -v` == *"Ubuntu"* ]]; then
     }
     export -f untar
 
+    function clean_boot_drive
+    {
+	sudo apt-get purge $(dpkg -l linux-{image,headers}-"[0-9]*" | awk '/ii/{print $2}' | grep -ve "$(uname -r | sed -r 's/-[a-z]+//')")
+    }
+    export -f clean_boot_drive
+
     # enable programmable completion features (you don't need to enable
     # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
     # sources /etc/bash.bashrc).
