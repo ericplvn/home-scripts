@@ -19,7 +19,7 @@
 .cisco/
 .compiz/
 .config/
-.connections-agent.log
+.connections-agent.log*
 .dbus
 .dmrc
 .emacs.d/
@@ -27,6 +27,7 @@
 .envimprovement
 .esd_auth
 .fontconfig/
+.gimp*
 .gconf/
 .gconfd/
 .gnome/
@@ -44,6 +45,7 @@
 .lesshst
 .local/
 .macromedia/
+.midway/
 .mozilla/
 .nx
 .oracle_jre_usage/
@@ -57,6 +59,7 @@
 .PyCharmCE2017.2/
 .python_history
 .qt/
+.rbenv/
 .remmina/
 .rnd
 .ssh/agent.out*
@@ -71,6 +74,7 @@
 .themes/
 .thumbnails/
 .to_backup
+.toolbox/
 .vboxclient*
 .viminfo
 .vimrc
@@ -90,6 +94,7 @@ Documents/
 Documents
 Downloads/
 DXADevCodeDeploy/
+InstallerFiles/
 Pictures/
 Videos/
 Workspaces/
@@ -97,6 +102,7 @@ amazon_bin/
 backups/
 bin/
 brazil-pkg-cache/
+code/
 core*
 dev_home
 ericplvn_old*
