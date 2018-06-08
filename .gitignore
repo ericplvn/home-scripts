@@ -3,6 +3,7 @@
 .ICEauthority
 .Private
 .Xauthority
+.account
 .acme-ffcert.log
 .acme/
 .anyconnect
@@ -11,11 +12,13 @@
 .aws
 .bash_history
 .bash_logout
+.bash_sessions/
 .bashrc.old
 .bashrc_local
 .bashrc_ubuntu
 .bogofilter/
 .cache/
+.CFUserTextEncoding
 .cisco/
 .compiz/
 .config/
@@ -62,6 +65,7 @@
 .rbenv/
 .remmina/
 .rnd
+.skipbuddy
 .ssh/agent.out*
 .ssh/authorized_keys*
 .ssh/config
@@ -75,6 +79,7 @@
 .thumbnails/
 .to_backup
 .toolbox/
+.Trash
 .vboxclient*
 .viminfo
 .vimrc
@@ -88,6 +93,7 @@
 .xsession-errors.old
 .zcompdump
 .zshrc
+Applications/
 Arduino/
 Desktop/
 Documents/
@@ -95,7 +101,11 @@ Documents
 Downloads/
 DXADevCodeDeploy/
 InstallerFiles/
+Library/
+Movies/
+Music/
 Pictures/
+Public/
 Videos/
 Workspaces/
 amazon_bin/

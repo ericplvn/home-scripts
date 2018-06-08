@@ -148,6 +148,17 @@ if [[ `uname -v` == *"Ubuntu"* ]]; then
 	    . /etc/bash_completion
 	fi
     fi
+elif [[ `uname -v` == "Darwin"* ]]; then
+    # Source global definitions
+    if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+    fi
+
+    PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
+    CLICOLOR=1
+    LSCOLORS=ExFxBxDxCxegedabagacad
+    alias ls='ls -GFh'
+ 
 else
     # Source global definitions
     if [ -f /etc/bashrc ]; then
