@@ -1,5 +1,6 @@
 *~
 *.swp
+*.tar*
 .ICEauthority
 .Private
 .Xauthority
@@ -66,6 +67,7 @@
 .remmina/
 .rnd
 .skipbuddy
+.ssh/
 .ssh/agent.out*
 .ssh/authorized_keys*
 .ssh/config

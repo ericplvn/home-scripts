@@ -22,3 +22,6 @@ alias amp='cd ${PWD/"local/home"/home}'
 
 # Grep in code
 alias grepc='grep -Inr'
+
+# git
+alias gits='git status'
