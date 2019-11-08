@@ -22,8 +22,10 @@
 .CFUserTextEncoding
 .cisco/
 .compiz/
+.conda/
 .config/
 .connections-agent.log*
+.cups/
 .dbus
 .dmrc
 .emacs.d/
@@ -110,12 +112,14 @@ Pictures/
 Public/
 Videos/
 Workspaces/
+WorkDocs/
 amazon_bin/
 backups/
 bin/
 brazil-pkg-cache/
 code/
 core*
+devhome
 dev_home
 ericplvn_old*
 ericplvn_ubuntu*
@@ -123,6 +127,7 @@ examples.desktop
 folders.txt
 local/
 lfs/
+miniconda3/
 teensy/
 tmux-*
 windows-home
