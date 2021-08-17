@@ -4,6 +4,7 @@
 .ICEauthority
 .Private
 .Xauthority
+.Xclients
 .account
 .acme-ffcert.log
 .acme/
