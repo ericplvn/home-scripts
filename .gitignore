@@ -1,6 +1,7 @@
 *~
 *.swp
 *.tar*
+.ada/
 .ICEauthority
 .Private
 .Xauthority
@@ -20,6 +21,7 @@
 .bashrc_ubuntu
 .bogofilter/
 .cache/
+.cdk/
 .CFUserTextEncoding
 .cisco/
 .compiz/
@@ -29,6 +31,7 @@
 .cups/
 .dbus
 .dmrc
+.docker
 .emacs.d/
 .ecryptfs
 .envimprovement
@@ -45,6 +48,7 @@
 .gtk-bookmarks
 .history
 .icons/
+.ipython
 .java
 .jssc
 .k5login
@@ -54,8 +58,10 @@
 .macromedia/
 .midway/
 .mozilla/
+.npm
 .nx
 .oracle_jre_usage/
+.pgAdmin*
 .pki/
 .post-review-cookies.txt
 .profile
@@ -77,6 +83,7 @@
 .ssh/id_rsa
 .ssh/id_rsa.*
 .ssh/known_hosts
+.sqlworkbench
 .subversion/
 .sudo_as_admin_successful
 .teensy
@@ -89,6 +96,7 @@
 .viminfo
 .vimrc
 .vnc
+.vscode
 .wget-hsts
 .xbindkeys*
 .xorgxrdp.12.log
@@ -97,7 +105,9 @@
 .xsession-errors
 .xsession-errors.old
 .zcompdump
+.zprofile
 .zshrc
+Amazon Workdocs Drive/
 Applications/
 Arduino/
 Desktop/
@@ -109,12 +119,14 @@ InstallerFiles/
 Library/
 Movies/
 Music/
+OneDrive
 Pictures/
 Public/
 Videos/
 Workspaces/
-WorkDocs/
+WorkDocs
 amazon_bin/
+aws
 backups/
 bin/
 brazil-pkg-cache/

@@ -10,3 +10,4 @@ fi
 PATH=$PATH:$HOME/bin
 
 export PATH
+export JAVA_TOOLS_OPTIONS="-Dlog4j2.formatMsgNoLookups=true"
